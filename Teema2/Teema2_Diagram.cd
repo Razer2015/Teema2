@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Teema2.OtteluOhjelma.GameProgram">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAEMAEAAAUAAAEAAAAQAgAAAAAAAQAAAAAAAIAAgA=</HashCode>
+      <FileName>OtteluOhjelma\GameProgram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teema2.OtteluOhjelma.Match">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OtteluOhjelma\Match.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teema2.OtteluOhjelma.Penalty">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OtteluOhjelma\Penalty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teema2.OtteluOhjelma.Round">
+    <Position X="4" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>OtteluOhjelma\Round.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teema2.OtteluOhjelma.RoundPenalty">
+    <Position X="6" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAACAAEAAAAAAAAAIAAAAAAAEgAAA=</HashCode>
+      <FileName>OtteluOhjelma\RoundPenalty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teema2.OtteluOhjelma.TabuList">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAABAAAAAAAAAAAAAAAAAAAAAgAQAAA=</HashCode>
+      <FileName>OtteluOhjelma\TabuList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teema2.Program">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

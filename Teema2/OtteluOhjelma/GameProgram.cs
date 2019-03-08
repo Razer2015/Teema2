@@ -121,7 +121,7 @@ namespace Teema2.OtteluOhjelma
         /// </summary>
         /// <returns></returns>
         private int GetTotalPenalty() {
-            return Rounds.Sum(x => x.Penalty.GetTotalPenalties());
+            return Rounds.Sum(x => x.RoundPenalties.GetTotalPenalties());
         }
 
         /// <summary>
