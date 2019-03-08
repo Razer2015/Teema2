@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Teema2.OtteluOhjelma;
 
 namespace Teema2
 {
     class Program
     {
         static void Main(string[] args) {
+            new GameProgram(12);
         }
     }
 }

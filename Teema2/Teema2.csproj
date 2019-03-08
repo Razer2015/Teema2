@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OtteluOhjelma\GameProgram.cs" />
+    <Compile Include="OtteluOhjelma\Match.cs" />
+    <Compile Include="OtteluOhjelma\Penalty.cs" />
+    <Compile Include="OtteluOhjelma\Round.cs" />
+    <Compile Include="OtteluOhjelma\RoundPenalty.cs" />
+    <Compile Include="OtteluOhjelma\TabuList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
