@@ -168,11 +168,20 @@ namespace Teema2.OtteluOhjelma
         private (int Round, Match match) MoveBestRound(Match match) {
             int totalPenaltyBefore = GetTotalPenalty();
 
+            // Remove the round about to be moved and count the penalties again
             int roundId = -1;
-            List<(int round, int penalty)> penaltys = new List<(int round, int penalty)>();
             for (int i = 0; i < Rounds.Length; i++) {
                 if (Rounds[i].Matches.Contains(match)) {
                     roundId = i;
+                    Rounds[i].Matches.Remove(match);
+                    break;
+                }
+            }
+            Rounds[roundId].CountPenalties();
+
+            List<(int round, int penalty)> penaltys = new List<(int round, int penalty)>();
+            for (int i = 0; i < Rounds.Length; i++) {
+                if (i == roundId) {
                     continue;
                 }
 
@@ -188,6 +197,9 @@ namespace Teema2.OtteluOhjelma
 
             var mins = penaltys.Where(x => x.penalty == penaltys.Min(y => y.penalty)).ToList();
             var bestRound = mins[rand.Next(0, mins.Count - 1)].round;
+
+            //// Add round back
+            //Rounds[roundId].Matches.Add(match);
 
             MoveRound(roundId, bestRound, match);
 
