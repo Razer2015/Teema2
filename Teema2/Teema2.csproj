@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Checker\CheckerProgram.cs" />
+    <Compile Include="Checker\Match.cs" />
     <Compile Include="OtteluOhjelma\GameProgram.cs" />
     <Compile Include="OtteluOhjelma\Match.cs" />
     <Compile Include="OtteluOhjelma\Penalty.cs" />
